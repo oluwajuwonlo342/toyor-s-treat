@@ -233,10 +233,8 @@ footer{
         display: flex;
     }
     .content{
-    /* display: flex; */
     margin-top: 12%;
     white-space: nowrap;
-    /* gap: 50px; */
     overflow-x: scroll;
     width: 100%;
     margin-right: -300px;
@@ -244,7 +242,6 @@ footer{
 .content2{
     overflow-x: scroll;
     white-space: nowrap;
-    /* margin-left: 122%; */
     margin-right: 44rem;
     margin-top: 12%;
     width: 100%;
@@ -253,10 +250,7 @@ footer{
     width: 800px;
 }
 #Back{
-    
-    /* background-color: white; */
     height: 189vh;
-    text-align: center;
     font-weight: bold;
     width: 100%;
 }
@@ -272,7 +266,8 @@ footer{
 }
 .col{
     font-size: 10px;
-    display: block;
+    /* display: block; */
+    /* display: flex; */
 }
 .con2{
     display: inline-block;
@@ -347,6 +342,7 @@ textarea{
     margin-top: 18%;
     height: 60vh;
 }
+
 .send{
     width: 48vw;
     margin-left: 14%;
@@ -355,6 +351,9 @@ textarea{
     border: none;
     background-color: #6C2664;
     color: white;
+}
+#row{
+    margin-top: 3%;
 }
 }
 @media screen and (max-width:800px){
@@ -406,9 +405,11 @@ textarea{
         <div class="second">
             <div class="container">
                 <div class="row" id="BACK">
-                    <div class="col">PERSONALIZED SHOP </div>
-                    <div class="col">EMAIL NOTIFICATION</div>
-                    <div class="col">GLOBAL LOCATION</div>
+                    <div id="row">
+                        <div class="col" id="personal">PERSONALIZED SHOP </div>
+                    <div class="col" id="notify">EMAIL NOTIFICATION</div>
+                    <div class="col" id="loc">GLOBAL LOCATION</div>
+                    </div>
                 </div>
             </div>
             <div class="container" id="shop">
@@ -418,11 +419,11 @@ textarea{
                     </div> -->
                     <div class="con2">
                         <div class="small-con2"><img src="boiled-eggs-stir-fried-with-tamarind-sauce.jpg" alt="" width="247vw" height="300vh"></div>
-                        <p class="Chops">Small Chops</p>
+                        <p class="Chops">Samosa</p>
                         <p class="price">3,500</p>
                     </div>
                     <div class="con2">
-                        <div class="small-con2"><img src="side-close-up-view-fastfood-orange-plate-chicken-wings-appetizing-french-fries-lemon-three-bowls-different-types-sauces-dark-table (1).jpg" alt="" width="246vw" height="300vh"  class=""></div>
+                        <div class="small-con2"><img src="cside-close-up-view-chicken-legs-appetizing-french-fries-chicken-legs-table.jpg" alt="" width="246vw" height="300vh"  class=""></div>
                         <p class="Chops">Chicken and Chips</p>
                         <p class="price">5,500</p>
                     </div>
@@ -444,12 +445,12 @@ textarea{
                     <div class="small-con"></div>
                     </div> -->
                     <div class="con2">
-                        <div class="small-con2"><img src="boiled-eggs-stir-fried-with-tamarind-sauce.jpg" alt="" width="247vw" height="300vh" ></div>
-                        <p class="Chops">Small Chops</p>
+                        <div class="small-con2"><img src="fried-spring-rolls-cutting-board.jpg" alt="" width="247vw" height="300vh" ></div>
+                        <p class="Chops">Spring Rolls</p>
                         <p class="price">3,500</p>
                     </div>
                     <div class="con2">
-                        <div class="small-con2"><img src="side-close-up-view-fastfood-orange-plate-chicken-wings-appetizing-french-fries-lemon-three-bowls-different-types-sauces-dark-table (1).jpg" alt="" width="247vw" height="300vh"></div>
+                        <div class="small-con2"><img src="cside-close-up-view-chicken-legs-appetizing-french-fries-chicken-legs-table.jpg" alt="" width="247vw" height="300vh"></div>
                         <p class="Chops">Chicken and Chips</p>
                         <p class="price">5,500</p>
                     </div>
